@@ -1,0 +1,178 @@
+[
+    {
+        "model": "student.Course",
+        "pk": 1,
+        "fields": {"name": "Computer Science"}
+    },
+    {
+        "model": "student.Course",
+        "pk": 2,
+        "fields": {"name": "Business Administration"}
+    },
+    {
+        "model": "student.Course",
+        "pk": 3,
+        "fields": {"name": "Mechanical Engineering"}
+    },
+    {
+        "model": "student.Course",
+        "pk": 4,
+        "fields": {"name": "Electrical Engineering"}
+    },
+    {
+        "model": "student.Course",
+        "pk": 5,
+        "fields": {"name": "Civil Engineering"}
+    },
+    
+    {
+        "model": "student.Student",
+        "pk": 1,
+        "fields": {
+            "name": "Raihan Ahmed",
+            "email": "raihan.ahmed@email.com",
+            "phone": "+8801712345678",
+            "course": 1
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 2,
+        "fields": {
+            "name": "Maya Sultana",
+            "email": "maya.sultana@email.com",
+            "phone": "+8801712345679",
+            "course": 2
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 3,
+        "fields": {
+            "name": "Shakib Al Hasan",
+            "email": "shakib.hasan@email.com",
+            "phone": "+8801712345680",
+            "course": 3
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 4,
+        "fields": {
+            "name": "Farzana Begum",
+            "email": "farzana.begum@email.com",
+            "phone": "+8801712345681",
+            "course": 4
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 5,
+        "fields": {
+            "name": "Mohammad Shamsur Rahman",
+            "email": "shamsur.rahman@email.com",
+            "phone": "+8801712345682",
+            "course": 5
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 6,
+        "fields": {
+            "name": "Sadia Rahman",
+            "email": "sadia.rahman@email.com",
+            "phone": "+8801712345683",
+            "course": 1
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 7,
+        "fields": {
+            "name": "Ibrahim Khalil",
+            "email": "ibrahim.khalil@email.com",
+            "phone": "+8801712345684",
+            "course": 2
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 8,
+        "fields": {
+            "name": "Nusrat Jahan",
+            "email": "nusrat.jahan@email.com",
+            "phone": "+8801712345685",
+            "course": 3
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 9,
+        "fields": {
+            "name": "Sabbir Rahman",
+            "email": "sabbir.rahman@email.com",
+            "phone": "+8801712345686",
+            "course": 4
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 10,
+        "fields": {
+            "name": "Anika Khan",
+            "email": "anika.khan@email.com",
+            "phone": "+8801712345687",
+            "course": 5
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 11,
+        "fields": {
+            "name": "Fahim Reza",
+            "email": "fahim.reza@email.com",
+            "phone": "+8801712345688",
+            "course": 1
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 12,
+        "fields": {
+            "name": "Ruhul Amin",
+            "email": "ruhul.amin@email.com",
+            "phone": "+8801712345689",
+            "course": 2
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 13,
+        "fields": {
+            "name": "Tania Islam",
+            "email": "tania.islam@email.com",
+            "phone": "+8801712345690",
+            "course": 3
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 14,
+        "fields": {
+            "name": "Bashir Ahmed",
+            "email": "bashir.ahmed@email.com",
+            "phone": "+8801712345691",
+            "course": 4
+        }
+    },
+    {
+        "model": "student.Student",
+        "pk": 15,
+        "fields": {
+            "name": "Sumaiya Hossain",
+            "email": "sumaiya.hossain@email.com",
+            "phone": "+8801712345692",
+            "course": 5
+        }
+    }
+]

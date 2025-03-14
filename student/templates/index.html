@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block page_header %} 
+    {% if search %}
+        Search<br><br>
+        <span class="text-dark">{{students|length}} Result Found For {{searched_name}}.</span>
+    {% else %}
+        All Student 
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+<section id="view_std">
+    <div class="container">
+        <div class="row">
+            {% for student in students %}
+            <div class="col-md-4 col-sm-6 p-2">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">{{student.name}}</h5>
+                      <p class="card-text"><i class="fa-solid fa-envelope me-2"> </i>{{student.email}}</p>
+                      <p class="card-text"><i class="fa-solid fa-phone me-2"></i>{{student.phone}}</p>
+                      <p class="card-text"><i class="fa-solid fa-graduation-cap me-2"></i>{{student.course.name}}</p>
+                      <a href="{% url 'update' student.id %}" class="btn btn-sm btn-outline-info">Edit</a>
+                      <a href="{% url 'delete' student.id %}" class="btn btn-sm btn-outline-warning">Delete</a>
+                    </div>
+                  </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
