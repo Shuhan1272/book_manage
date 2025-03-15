@@ -1,5 +1,11 @@
 {% extends "base.html" %}
 
+{% block title %}
+    {% if search %}
+        Search
+    {% endif %}
+{% endblock %}
+
 {% block page_header %} 
     {% if search %}
         Search<br><br>
