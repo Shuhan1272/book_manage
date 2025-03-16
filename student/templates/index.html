@@ -3,13 +3,15 @@
 {% block title %}
     {% if search %}
         Search
+    {% else %}
+        Home
     {% endif %}
 {% endblock %}
 
 {% block page_header %} 
     {% if search %}
         Search<br><br>
-        <span class="text-dark">{{students|length}} Result Found For {{searched_name}}.</span>
+        <span class="text-dark">{{students|length}} result found for {{searched_name}}.</span>
     {% else %}
         All Student 
     {% endif %}

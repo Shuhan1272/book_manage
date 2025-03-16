@@ -19,7 +19,7 @@ def create(request):
         if form.is_valid():
             form.save()
             messages.success(request, "Student created successfully!")  # Create message
-            return redirect('create')
+            return redirect('home')
     form = StudentForm()
     context = {
         "form" : form,
@@ -34,7 +34,7 @@ def update(request,std_id):
         if form.is_valid():
             form.save()
             messages.info(request, "Student updated successfully!")  # update message
-            return redirect('update', std_id=std_id)
+            return redirect('home')
     form = StudentForm(instance=student)
     context = {
         "form" : form,
